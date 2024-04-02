@@ -1,3 +1,3 @@
 # OOP_Lab_Assignment_4
 
-This Java program is designed to handle user login attempts and validate passwords. The program defines custom exceptions (MaxLogInException & InvalidPasswordException) to handle specific error conditions and provides functionality to repeatedly prompt the user for a password until a valid one is entered or the maximum number of attempts (3) is reached.
+This Java program is designed to handle user login attempts and validate passwords. User is prompted to enter his/her password, and the program verifies its correctness against a predefined correct or valid password ("password"). The system allows a maximum of three (3) login attempts. Upon exceeding this limit, users are informed of the maximum attempts reached and are denied further access. Custom exceptions (MaxLogInException & InvalidPasswordException) are used to handle specific error conditions.
